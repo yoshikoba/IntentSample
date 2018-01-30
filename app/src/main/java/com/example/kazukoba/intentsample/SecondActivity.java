@@ -15,8 +15,8 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_second);
 
         backButton = findViewById(R.id.buttonBack);
+        
         backButton.setOnClickListener(this);
-
 
     }
 
